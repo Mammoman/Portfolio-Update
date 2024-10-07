@@ -364,38 +364,92 @@ section .title::after {
   content: "What I've Done";
 }
 
-
- .img-grid{  
+.img-grid{  
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: auto ;
+  grid-template-rows: auto ;
   align-items: center;
   grid-gap: 50px;
 }
 
 .projects .grid img{
-  height: 150px;
-  width: 250px;
+  height: 500px;
+    width:  500px;
   object-fit: cover;
   border-radius: 6px;
+  transition: all 0.2s ease;
 }
 
-@media (max-width: 500px) {
+.img-grid .img-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img-txt{
+  align-self: center;
+}
+
+
+.img-5 .img-txt p{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 1104px) {
   .img-grid{  
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
     align-items: center;
-    grid-gap: 10px;
+    grid-gap: 50px;
   }
   
   .projects .grid img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width:  500px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+  
+  .img-grid .img-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .img-5 .img-txt p{
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 670px) {
+  .projects .grid img{
+    height:  250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 6px;
   }
+  
+  .img-grid .img-5{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img-5 .img-txt{
+    align-content: center;
+  }
+  
+  .img-5 .img-txt p{
+    font-size: 14px;
+    font-weight: 600;
+  }
 }
+
 
 .skills .title::after {
   content: "What I Know";
@@ -472,12 +526,17 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-  width: 60%;
+  width: 90%;
   border-radius: 20px;
 }
 
 .skills-content .right .js::before {
   width: 80%;
+  border-radius: 20px;
+}
+
+.skills-content .right .react::before {
+  width: 50%;
   border-radius: 20px;
 }
 
@@ -828,7 +887,7 @@ footer span a:hover {
     font-size: 19px;
   }
 
-  .contact .right form .fields {
+  .contact .right form .fields{ 
     flex-direction: column;
   }
 
