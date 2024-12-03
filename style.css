@@ -540,6 +540,11 @@ section .title::after {
   border-radius: 20px;
 }
 
+.skills-content .right .vue::before {
+  width: 40%;
+  border-radius: 20%;
+}
+
 
 .teams .title::after {
   content: "Who With Me";
