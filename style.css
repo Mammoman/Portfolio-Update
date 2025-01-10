@@ -380,6 +380,16 @@ opacity: 0;
   grid-template-rows: auto ;
   align-items: center;
   grid-gap: 50px;
+opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+}
+  
+
+.img-grid.visible {
+  opacity: 1;
+  transform: translateX(0%);
+  
 }
 
 .projects .grid img{
@@ -394,17 +404,7 @@ opacity: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-opacity: 0;
-  transform: translateX(-100%);
-  transition: transform 1.5s ease-out, opacity 1.5s ease-out;
-}
-  
 
-.img-grid.visible {
-  opacity: 1;
-  transform: translateX(0%);
-  
-}
 
 .img-txt{
   align-self: center;
