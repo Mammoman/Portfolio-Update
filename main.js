@@ -71,3 +71,18 @@ $(document).ready(function() {
     }
   });
 });
+
+
+const cards = document.querySelectorAll('.services .serv-content .card, .img-grid');
+
+function checkCards() {
+  cards.forEach((card) => {
+    const rect = card.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      card.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', checkCards);
+checkCards();
