@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  
 }
 
 .card {
@@ -151,6 +152,13 @@ section .title::after {
   color: #fff;
 }
 
+
+.bottom-menu{
+  display:flex;
+  justify-self: center;
+  width:80%;
+}
+
 .middle-header{
   display:flex;
   flex-direction:row;
@@ -158,24 +166,29 @@ section .title::after {
   justify-self: center;
   justify-content: space-around;
   border-radius: 25px;
-  background-color: ghostwhite ;
-  margin-bottom: 20px;
+  padding:20px 25px;
+  background-color: tomato;
   position:fixed;
-  bottom:20px;
+  bottom:55px;
+  z-index:1000;
 }
 
 .middle-header .txt{
-  padding: 5px 10px;
+  
   font-size: 20px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .middle-header .txt:hover{
-  padding: 5px 10px;
-  border-radius: 20px;
-  background-color: white;
-  color: black ;
+
+  
+}
+
+@media (min-width:1104px) {
+  .bottom-menu{
+    display: none ;
+  }
 }
 
 
