@@ -5,7 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  
+  color:white;
+}
+
+body{
+background: linear-gradient(90deg, #061161 10%,  
+#780206 100%);
 }
 
 .card {
@@ -157,6 +162,7 @@ section .title::after {
   display:flex;
   justify-self: center;
   width:80%;
+  
 }
 
 .middle-header{
@@ -172,6 +178,8 @@ section .title::after {
   position:fixed;
   bottom:55px;
   z-index:1000;
+  background: linear-gradient(90deg, #870000 10%,  
+#190A05 100%);
 }
 
 .middle-header .txt{
@@ -262,25 +270,25 @@ section .title::after {
 }
 
 .home .home-content .text-1 {
-  color: brown;
+  color: white;
   font-size: 27px;
 }
 
 .home .home-content .text-2 {
-  color: brown;
+  color: ghostwhite;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
 
 .home .home-content .text-3 {
-  color: brown;
+  color: white;
   font-size: 40px;
   margin: 5px 0;
 }
 
 .home .home-content .text-3 span {
-  color: crimson;
+  color: whitesmoke;
   font-weight: 500;
 }
 
