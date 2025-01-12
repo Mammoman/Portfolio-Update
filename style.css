@@ -597,7 +597,7 @@ opacity: 0;
 .skills .skills-content .right span {
   font-weight: 500;
   font-size: 18px;
-  color: black;
+  color: white;
 }
 
 .skills .skills-content .right .line {
@@ -618,7 +618,7 @@ opacity: 0;
 }
 
 .skills .bars{
-  background-color: blanchedalmond;
+  background-color: #220C05;
   padding:  25px 25px;
   border-radius:15px;
 }
