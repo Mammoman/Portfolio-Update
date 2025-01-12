@@ -186,6 +186,10 @@ section .title::after {
   
 }
 
+.bottom-menu a{
+  color: transparent ;
+}
+
 .bottom-menu .fas{
   font-size:25px;
   color: white ;
