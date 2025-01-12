@@ -288,7 +288,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-  color: whitesmoke;
+  color: crimson;
   font-weight: 500;
 }
 
@@ -313,6 +313,7 @@ section .title::after {
 
 .about .title::after {
   content: "Who Am I";
+    background: none;
 }
 
 .about .about-content .left {
@@ -430,6 +431,7 @@ section .title::after {
 
 .projects .title::after{
   content: "What I've Done";
+  background: none;
 }
 
 .img-grid{  
@@ -545,6 +547,7 @@ opacity: 0;
 
 .skills .title::after {
   content: "What I Know";
+  background: none;;
 }
 
 .skills .skills-content .column {
@@ -588,11 +591,13 @@ opacity: 0;
   margin-bottom: 5px;
   align-items: center;
   justify-content: space-between;
+  ;
 }
 
 .skills .skills-content .right span {
   font-weight: 500;
   font-size: 18px;
+  color: black;
 }
 
 .skills .skills-content .right .line {
@@ -647,6 +652,7 @@ opacity: 0;
 
 .teams .title::after {
   content: "Who With Me";
+  background: none ;
 }
 
 .teams .carousel .card {
@@ -721,6 +727,7 @@ opacity: 0;
 
 .contact .title::after {
   content: "Get In Touch";
+  background: none;
 }
 
 .contact .contact-content .column {
