@@ -151,6 +151,33 @@ section .title::after {
   color: #fff;
 }
 
+.middle-header{
+  display:flex;
+  flex-direction:row;
+  width:80%;
+  justify-self: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  background-color: ghostwhite ;
+  margin-bottom: 20px;
+  position:fixed;
+  bottom:20px;
+}
+
+.middle-header .txt{
+  padding: 5px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.middle-header .txt:hover{
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: black ;
+}
+
 
 .menu-btn {
   color: #fff;
