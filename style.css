@@ -553,6 +553,13 @@ opacity: 0;
   background: crimson;
 }
 
+.skills .bars{
+  background-color: blanchedalmond;
+  padding:  25px 25px;
+  border-radius:15px;
+}
+
+
 .skills-content .right .html::before {
   width: 90%;
   border-radius: 20px;
@@ -574,7 +581,7 @@ opacity: 0;
 }
 
 .skills-content .right .vue::before {
-  width: 40%;
+  width: 50%;
   border-radius: 20%;
 }
 
