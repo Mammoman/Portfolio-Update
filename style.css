@@ -166,7 +166,7 @@ section .title::after {
   justify-self: center;
   justify-content: space-around;
   border-radius: 40px;
-  padding:25px 20px;
+  padding:20px 15px;
   background-color: crimson ;
   opacity: 0.9;
   position:fixed;
@@ -184,6 +184,11 @@ section .title::after {
 .middle-header .txt:hover{
 
   
+}
+
+.bottom-menu .fas{
+  font-size:25px;
+  color: white ;
 }
 
 @media (min-width:1104px) {
